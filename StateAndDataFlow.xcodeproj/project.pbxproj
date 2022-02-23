@@ -11,6 +11,10 @@
 		4BA0908D27C4072D00DCC8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0908C27C4072D00DCC8CD /* ContentView.swift */; };
 		4BA0908F27C4072E00DCC8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA0908E27C4072E00DCC8CD /* Assets.xcassets */; };
 		4BA0909227C4072E00DCC8CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BA0909127C4072E00DCC8CD /* Preview Assets.xcassets */; };
+		4BA0909927C40BF100DCC8CD /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909827C40BF000DCC8CD /* TimeCounter.swift */; };
+		4BA0909B27C4131F00DCC8CD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909A27C4131F00DCC8CD /* RegisterView.swift */; };
+		4BA0909D27C4149600DCC8CD /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909C27C4149600DCC8CD /* UserManager.swift */; };
+		4BA0909F27C4166F00DCC8CD /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909E27C4166F00DCC8CD /* StarterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		4BA0908C27C4072D00DCC8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4BA0908E27C4072E00DCC8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BA0909127C4072E00DCC8CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4BA0909827C40BF000DCC8CD /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		4BA0909A27C4131F00DCC8CD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		4BA0909C27C4149600DCC8CD /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		4BA0909E27C4166F00DCC8CD /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				4BA0908A27C4072D00DCC8CD /* StateAndDataFlowApp.swift */,
 				4BA0908C27C4072D00DCC8CD /* ContentView.swift */,
+				4BA0909827C40BF000DCC8CD /* TimeCounter.swift */,
+				4BA0909A27C4131F00DCC8CD /* RegisterView.swift */,
+				4BA0909E27C4166F00DCC8CD /* StarterView.swift */,
+				4BA0909C27C4149600DCC8CD /* UserManager.swift */,
 				4BA0908E27C4072E00DCC8CD /* Assets.xcassets */,
 				4BA0909027C4072E00DCC8CD /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BA0909927C40BF100DCC8CD /* TimeCounter.swift in Sources */,
+				4BA0909B27C4131F00DCC8CD /* RegisterView.swift in Sources */,
+				4BA0909F27C4166F00DCC8CD /* StarterView.swift in Sources */,
 				4BA0908D27C4072D00DCC8CD /* ContentView.swift in Sources */,
+				4BA0909D27C4149600DCC8CD /* UserManager.swift in Sources */,
 				4BA0908B27C4072D00DCC8CD /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
