@@ -9,11 +9,19 @@ import SwiftUI
 
 struct RegisterView: View {
   @EnvironmentObject var user: UserManager
-  @State private var name = ""
+  @AppStorage("name") var name = ""
+  @State private var characterCounter = 0
   
     var body: some View {
       VStack {
-        TextField("Enter your name...", text: $name)
+        HStack {
+          TextField("Enter your name...", text: $name)
+            .onChange(of: name) { _ in
+              characterCounter = name.count
+            }
+          Text("\(characterCounter)")
+            .padding()
+        }
           .multilineTextAlignment(.center)
         Button(action: registerUser) {
           HStack {
@@ -27,10 +35,10 @@ struct RegisterView: View {
 
 extension RegisterView {
   private func registerUser() {
-    if !name.isEmpty {
-      user.name = name
-      user.isRegister.toggle()
-    }
+    if name.count >= 3 {
+          user.name = name
+          user.isRegister.toggle()
+        }
   }
 }
 
