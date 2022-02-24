@@ -15,6 +15,7 @@
 		4BA0909B27C4131F00DCC8CD /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909A27C4131F00DCC8CD /* RegisterView.swift */; };
 		4BA0909D27C4149600DCC8CD /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909C27C4149600DCC8CD /* UserManager.swift */; };
 		4BA0909F27C4166F00DCC8CD /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA0909E27C4166F00DCC8CD /* StarterView.swift */; };
+		4BA090A327C7BF2C00DCC8CD /* CharacterCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA090A227C7BF2C00DCC8CD /* CharacterCounter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4BA0909A27C4131F00DCC8CD /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		4BA0909C27C4149600DCC8CD /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		4BA0909E27C4166F00DCC8CD /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		4BA090A227C7BF2C00DCC8CD /* CharacterCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCounter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4BA0908C27C4072D00DCC8CD /* ContentView.swift */,
 				4BA0909827C40BF000DCC8CD /* TimeCounter.swift */,
 				4BA0909A27C4131F00DCC8CD /* RegisterView.swift */,
+				4BA090A227C7BF2C00DCC8CD /* CharacterCounter.swift */,
 				4BA0909E27C4166F00DCC8CD /* StarterView.swift */,
 				4BA0909C27C4149600DCC8CD /* UserManager.swift */,
 				4BA0908E27C4072E00DCC8CD /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				4BA0908D27C4072D00DCC8CD /* ContentView.swift in Sources */,
 				4BA0909D27C4149600DCC8CD /* UserManager.swift in Sources */,
 				4BA0908B27C4072D00DCC8CD /* StateAndDataFlowApp.swift in Sources */,
+				4BA090A327C7BF2C00DCC8CD /* CharacterCounter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
