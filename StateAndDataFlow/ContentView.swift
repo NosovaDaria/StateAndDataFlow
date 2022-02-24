@@ -34,6 +34,7 @@ struct ContentView_Previews: PreviewProvider {
 
 struct ButtonView: View {
   @ObservedObject var timer: TimeCounter
+  @EnvironmentObject var user: UserManager
   
   var body: some View {
     Button(action: timer.startTimer) {
@@ -49,7 +50,31 @@ struct ButtonView: View {
       RoundedRectangle(cornerRadius: 20)
         .stroke(Color.black, lineWidth: 4)
     )
-   
+    .padding()
+    
+    Button(action: deleteUser) {
+      Text("LogOut")
+        .font(.title)
+        .fontWeight(.bold)
+        .foregroundColor(.white)
+    }
+    .frame(width: 200, height: 60)
+    .background(Color.blue)
+    .cornerRadius(20)
+    .overlay(
+      RoundedRectangle(cornerRadius: 20)
+        .stroke(Color.black, lineWidth: 4)
+    )
     }
   }
+
+extension ButtonView {
+  private func deleteUser() {
+    user.name = ""
+    user.isRegister = false
+    print("\(user.name)")
+    UserDefaults.standard.removePersistentDomain(forName: "name")
+    UserDefaults.standard.removePersistentDomain(forName: "characterCounter")
+  }
+}
 

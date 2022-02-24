@@ -47,10 +47,8 @@ extension RegisterView {
   private func checkValidity() {
     if characterCounter < 3 {
       color = .red
-      print(color)
     } else {
       color = .green
-      print(color)
     }
   }
 }
